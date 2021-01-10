@@ -7,6 +7,7 @@ const Room = () => {
   return (
     <>
       <h1>Chat Room</h1>
+      <Item user={"kei"} content={"あいうえお"}/>
       <form>
         <TextField
           value={text}
