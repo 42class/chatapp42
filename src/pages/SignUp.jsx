@@ -20,6 +20,7 @@ const useStyles = makeStyles({
 })
 
 const SignUp = () => {
+
     const [username, setUsername] = useState('')
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
@@ -67,4 +68,5 @@ const SignUp = () => {
     )
 }
 
-export default SignUp
+
+export default SignUp;
