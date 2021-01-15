@@ -14,7 +14,7 @@ const useStyles = makeStyles({
     display: 'flex',
     justifyContent: 'space-around',
     flexDirection: 'column',
-    margin: '0 auto',
+    margin: '0 auto 20px',
   },
   chatRoomWrapper:{
     backgroundColor:'white',
@@ -41,7 +41,7 @@ const Room = () => {
         />
         <Button variant="contained" color="secondary">Submit</Button>
       </form>
-      <button className={classes.button}>Log out</button>
+      <Button className={classes.button} variant="containe" color="primary">Log out</Button>
     </div>
     
   );
